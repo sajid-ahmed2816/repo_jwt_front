@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Signup() {
     const [formData, setFormData] = useState({});
-    let postFormDataURL = "http://localhost:5050/api/test"
+    let postFormDataURL = "http://localhost:5050/api/user/signup"
 
     async function handleSubmit() {
         axios.post(postFormDataURL, formData)
@@ -24,8 +24,8 @@ function Signup() {
             minHeight="70vh"
             width="500px"
             margin="40px auto"
-            border="1px Solid #747474"
             borderRadius="10px"
+            boxShadow="1px 1px 25px 5px #eeeeee"
         >
             <Grid container spacing={0}>
                 <Grid item md={12}>

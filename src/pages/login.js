@@ -9,8 +9,9 @@ function Login() {
             minHeight="70vh"
             width="500px"
             margin="40px auto"
-            border="1px Solid #747474"
+            padding="20px"
             borderRadius="10px"
+            boxShadow="1px 1px 25px 5px #e1e1e1"
         >
             <Grid container spacing={0}>
                 <Grid item md={12}>
